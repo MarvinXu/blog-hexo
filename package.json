@@ -11,6 +11,11 @@
   "hexo": {
     "version": "4.2.1"
   },
+  "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "marvinxu",
+    "repo": "blog"
+  },
   "dependencies": {
     "hexo": "^4.2.1",
     "hexo-deployer-git": "^2.1.0",
@@ -21,6 +26,7 @@
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "yuque-hexo": "^1.6.5"
   }
 }

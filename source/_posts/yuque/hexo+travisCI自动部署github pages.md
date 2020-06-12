@@ -26,6 +26,9 @@ cd blog-hexo
 ### 配置主题
 
 [https://github.com/next-theme/hexo-theme-next](https://github.com/next-theme/hexo-theme-next)
+使用 git clone 安装后 git commit 时会提示用 submodule，为了简单我直接把主题的.git 文件删掉了。
+
+> 待研究：[在 hexo 中使用 git submodules 管理主题](https://juejin.im/post/5c2e22fcf265da615d72c596)
 
 ### 手动部署
 

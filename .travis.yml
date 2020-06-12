@@ -6,12 +6,11 @@ script:
 cache: 
   directories: 
     - node_modules
-# deploy:
-#   provider: pages
-#   skip_cleanup: true
-#   github_token: 1ed7ab058deb33e33bc63bbbd3e7c68b0ed927b1  # Set in the settings page of your repository, as a secure variable
-#   keep_history: true
-#   repo: MarvinXu/marvinxu.github.io
-#   local_dir: public
-#   on:
-#     branch: master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  keep_history: true
+  repo: MarvinXu/marvinxu.github.io
+  local_dir: public
+  on:
+    branch: master

@@ -6,7 +6,10 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "sync": "yuque-hexo sync",
+    "clean:yuque": "yuque-hexo clean",
+    "build:yuque": "npm run sync && hexo clean && hexo g"
   },
   "hexo": {
     "version": "4.2.1"

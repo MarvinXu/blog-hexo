@@ -23,6 +23,10 @@ hexo init blog-hexo
 cd blog-hexo
 ```
 
+### 配置主题
+
+[https://github.com/next-theme/hexo-theme-next](https://github.com/next-theme/hexo-theme-next)
+
 ### 手动部署
 
 > Just for a reminder，本文重点是后面的 Travis CI 自动部署

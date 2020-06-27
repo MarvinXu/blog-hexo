@@ -11,8 +11,8 @@ hexo.extend.helper.register('next_inject', function(point) {
 });
 
 hexo.extend.helper.register('next_js', function(...urls) {
-  const { js } = hexo.theme.config;
-  return urls.map(url => this.js(`${js}/${url}`)).join('');
+  const { js, cdn } = hexo.theme.config;
+  return urls.map(url => this.js(this.cdn_url(`/${js}/${url}`))).join('');
 });
 
 hexo.extend.helper.register('next_vendors', function(url) {

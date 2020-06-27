@@ -4,22 +4,22 @@
 <meta name="generator" content="Hexo {{ hexo_version }}">
 <meta name="referrer" content="no-referrer" />
 {%- if theme.favicon.apple_touch_icon %}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for(theme.favicon.apple_touch_icon) }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ cdn_url(theme.favicon.apple_touch_icon) }}">
 {%- endif %}
 {%- if theme.favicon.medium %}
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for(theme.favicon.medium) }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ cdn_url(theme.favicon.medium) }}">
 {%- endif %}
 {%- if theme.favicon.small %}
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for(theme.favicon.small) }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ cdn_url(theme.favicon.small) }}">
 {%- endif %}
 {%- if theme.favicon.safari_pinned_tab %}
-  <link rel="mask-icon" href="{{ url_for(theme.favicon.safari_pinned_tab) }}" color="{{ theme.android_chrome_color }}">
+  <link rel="mask-icon" href="{{ cdn_url(theme.favicon.safari_pinned_tab) }}" color="{{ theme.android_chrome_color }}">
 {%- endif %}
 {%- if theme.favicon.android_manifest %}
-  <link rel="manifest" href="{{ url_for(theme.favicon.android_manifest) }}">
+  <link rel="manifest" href="{{ cdn_url(theme.favicon.android_manifest) }}">
 {%- endif %}
 {%- if theme.favicon.ms_browserconfig %}
-  <meta name="msapplication-config" content="{{ url_for(theme.favicon.ms_browserconfig) }}">
+  <meta name="msapplication-config" content="{{ cdn_url(theme.favicon.ms_browserconfig) }}">
 {%- endif %}
 
 {%- if theme.disable_baidu_transformation %}
@@ -39,7 +39,7 @@
   <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}">
 {%- endif %}
 
-<link rel="stylesheet" href="{{ url_for(theme.css) }}/main.css">
+<link rel="stylesheet" href="{{ cdn_url(theme.css) }}/main.css">
 
 {{ next_font() }}
 

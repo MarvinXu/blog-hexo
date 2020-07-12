@@ -17,7 +17,9 @@
   "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
     "login": "marvinxu",
-    "repo": "blog"
+    "repo": "blog",
+    "onlyPublished": true,
+    "onlyPublic": true
   },
   "dependencies": {
     "hexo": "^4.2.1",

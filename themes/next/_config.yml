@@ -459,7 +459,7 @@ disable_baidu_transformation: false
 index_with_subtitle: false
 
 # Automatically add external URL with Base64 encrypt & decrypt.
-exturl: false
+exturl: true
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
@@ -478,7 +478,7 @@ yandex_site_verification:
 baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -610,9 +610,9 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
+  enable: true
+  appid: zTPXKB1PSz9j7vFogu1ipUEw-9Nh9j0Va
+  appkey: IWIGt2rvCDJ8Pu9CnWYMUiOb
   notify: false # Mail notifier
   verify: false # Verification code
   placeholder: Just go go # Comment box placeholder
@@ -628,7 +628,7 @@ valine:
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC81MDQ3NC8yNjk2MQ
+livere_uid: # MTAyMC81MDQ3NC8yNjk2MQ
 
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
